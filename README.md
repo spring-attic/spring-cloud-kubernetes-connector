@@ -1,3 +1,3 @@
-# spring-cloud-kubernetes-connector
+# spring-cloud-connector-kubernetes
 
 Hello World!
