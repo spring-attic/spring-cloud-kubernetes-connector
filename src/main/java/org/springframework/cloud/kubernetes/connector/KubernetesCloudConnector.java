@@ -53,13 +53,6 @@ public class KubernetesCloudConnector extends AbstractCloudConnector<Service> {
 
 	public KubernetesCloudConnector() {
 		super((Class) KubernetesServiceInfoCreator.class);
-//		String masterURL = environment.getEnvValue("SPRING_CLOUD_KUBERNETES_MASTER_URL");
-//		if (masterURL == null) {
-//			// Default value for vagrant VM install
-//			log.info("Using default value of https://10.245.1.2 for master URL");
-//			masterURL = "https://10.245.1.2";
-//		}
-//		this.kubernetes = new DefaultKubernetesClient(masterURL);
 		this.kubernetes = new DefaultKubernetesClient();
 		Set<String> values = new HashSet<>();
 		for (ServiceInfoCreator<?, Service> serviceInfoCreator : serviceInfoCreators) {
