@@ -1,7 +1,4 @@
-== Spring Cloud Connector for Kubernetes
-
-image:https://build.spring.io/plugins/servlet/buildStatusImage/SCD-SCKC[Build Status, link=https://build.spring.io/browse/SCD-SCKC]
-
+= spring-cloud-connector-kubernetes
 
 The http://cloud.spring.io/spring-cloud-connectors/spring-cloud-connectors.html[Spring Cloud Connector project] provides an abstraction to discover services at runtime and register them as Spring beans.  
 
@@ -15,12 +12,6 @@ metadata:
 ----
 
 A standard https://github.com/kubernetes/kubernetes/blob/master/docs/user-guide/services.md#discovering-services[kubernetes style service discovery mechanism], that does not require the use of labels is an https://github.com/spring-cloud/spring-cloud-dataflow-admin-kubernetes/issues/17[open issue].
-
-=== Building 
-
-```
-./mvnw clean package
-```
 
 
 
