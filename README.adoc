@@ -1,3 +1,6 @@
+# spring-cloud-kubernetes-connector is no longer actively maintained by VMware, Inc.
+
+
 == Spring Cloud Connector for Kubernetes
 
 image:https://build.spring.io/plugins/servlet/buildStatusImage/SCD-SCKC[Build Status, link=https://build.spring.io/browse/SCD-SCKC]
